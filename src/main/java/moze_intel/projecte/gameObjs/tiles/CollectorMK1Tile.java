@@ -363,15 +363,15 @@ public class CollectorMK1Tile extends TileEmc implements IEmcProvider, IEmcAccep
 
 			if (tile instanceof RelayMK3Tile)
 			{
-				((RelayMK3Tile) tile).addBonus(dir, 0.5);
+				((RelayMK3Tile) tile).addBonus(dir, 450000D/20D);
 			}
 			else if (tile instanceof RelayMK2Tile)
 			{
-				((RelayMK2Tile) tile).addBonus(dir, 0.15);
+				((RelayMK2Tile) tile).addBonus(dir, 90000D/20D);
 			}
 			else if (tile instanceof RelayMK1Tile)
 			{
-				((RelayMK1Tile) tile).addBonus(dir, 0.05);
+				((RelayMK1Tile) tile).addBonus(dir, 1000D/20D);
 			}
 		}
 	}
