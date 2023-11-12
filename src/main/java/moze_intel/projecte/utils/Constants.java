@@ -19,13 +19,13 @@ public final class Constants
 	public static final long COLLECTOR_MK1_MAX = 10000;
 	public static final long COLLECTOR_MK2_MAX = 30000;
 	public static final long COLLECTOR_MK3_MAX = 60000;
-	public static final long COLLECTOR_MK1_GEN = 4;
-	public static final long COLLECTOR_MK2_GEN = 12;
-	public static final long COLLECTOR_MK3_GEN = 40;
-	
-	public static final long RELAY_MK1_OUTPUT = 64;
-	public static final long RELAY_MK2_OUTPUT = 192;
-	public static final long RELAY_MK3_OUTPUT = 640;
+	public static final long COLLECTOR_MK1_GEN = 4000;
+	public static final long COLLECTOR_MK2_GEN = 36000;
+	public static final long COLLECTOR_MK3_GEN = 800000;
+
+	public static final long RELAY_MK1_OUTPUT = 640000;
+	public static final long RELAY_MK2_OUTPUT = 1920000;
+	public static final long RELAY_MK3_OUTPUT = 6400000;
 	
 	public static final long RELAY_MK1_MAX = 100000;
 	public static final long RELAY_MK2_MAX = 1000000;
